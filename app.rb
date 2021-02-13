@@ -8,5 +8,5 @@ configure :development do
 end
 
 get '/' do
-  'Hello world!'
+  'Something else on my server!'
 end
