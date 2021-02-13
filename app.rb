@@ -8,5 +8,9 @@ configure :development do
 end
 
 get '/' do
-  'Something else on my server!'
+  erb :index
+end
+
+get '/about' do
+  erb :about
 end
